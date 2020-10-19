@@ -30,7 +30,8 @@ If you are installing cert-manager `>= 1.0`,
 you will need to have kubernetes `>= 1.16`.
 Legacy custom resource definitions in cert-manager for kubernetes `<= 1.15`
 do not have a keyAlgorithm option,
-so the certificates will be generated using RSA and be incompatible with linkerd.
+so the certificates will be generated using RSA
+and be incompatible with linkerd.
 
 See [v0.16 to v1.0 upgrade notes](https://cert-manager.io/docs/installation/upgrading/upgrading-0.16-1.0/)
 for more details on version requirements.
